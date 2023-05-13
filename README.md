@@ -9,20 +9,11 @@
 (SIRS) is an inflammatory state affecting the whole body. It is the body's response to an infectious or noninfectious insult.
 Although the definition of SIRS refers to it as an "inflammatory" response, it actually has pro- and anti-inflammatory components.
 
-The original studies examined pediatric patients admitted to the ICU, who were later classified as either SIRS (non-infectious) or Sepsis or Septic Shock (infectious).
-There is also a group of healthy controls. Although the original studies examine patients at both ICU day 1 and ICU day 3, here we have only aggregated ICU day 1 patients.
-All samples here were downloaded as .CEL files and re-normalized together using gcRMA using R package 'affy'.
-The normalized data can be found on the series record and contains the gcRMA normalized expression values.
-
-The dataset is composed of the unique patients (276; at the Day 1 timepoint) that are present in the six other GEO datasets published by Hector Wong and the Genomics of
-Pediatric SIRS and Septic Shock Investigators. This dataset thus includes all unique patients from GSE4607, GSE8121, GSE9692, GSE13904, GSE26378, and GSE26440.
-These are only from the Day 1 timepoint.
-
+This analysis was focused on finding a suitable model for morbidity prediction from gene expression profile of the patient.
 Initital data preprocessing was done by [1], differential gene expression (DGE) and re-normalization was done by [2]. 
 I downloaded the data concerning SIRS from [bitbucket repository](https://bitbucket.org/i2rlab/rdea/src/master/) provided by [2]. 
-The original data comes from [1] and is available via [Synapse](https://www.synapse.org/) as well as from 
-[GEO GSE66099 dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66099). Part of the above description
-was also taken from the same GEO dataset.
+The original data comes from [1] and is available via [Synapse](https://www.synapse.org/) (after logging in) and 
+[GEO GSE66099 dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66099).
 
 ## 🔍 Inspect online
 
