@@ -20,3 +20,4 @@ conda activate SIRS-genomics
 ## 📖 References
 
 1. Abbas, M., & EL-Manzalawy, Y. (2020). Machine learning based refined differential gene expression analysis of pediatric sepsis. In BMC Medical Genomics (Vol. 13, Issue 1). Springer Science and Business Media LLC. https://doi.org/10.1186/s12920-020-00771-4
+1. Timothy E Sweeney, Thanneer M Perumal, Ricardo Henao, Marshall Nichols, Judith A Howrylak, Augustine M Choi, Jesús F Bermejo-Martin, Raquel Almansa, Eduardo Tamayo, Emma E Davenport, et al. A community approach to mortality prediction in sepsis via gene expression analysis. Nature communications, 9(1):1–10, 2018.
