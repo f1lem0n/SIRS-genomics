@@ -21,6 +21,8 @@ Because github does not support rendering `plotly` graphs, if you wish to inspec
 please consider viewing this project tree on [NBviewer](https://nbviewer.org/github/f1lem0n/SIRS-genomics/tree/main/).
 If you would like to explore the data through *interactive* plots that I have created that is the easiest way to go.
 
+⚠️ If for some reason NBviewer renders an incomplete version of the notebook, try adding `?flush_cache=true` at the end of the URL.
+
 ## 🐍 Environment
 
 1. `git clone https://github.com/f1lem0n/SIRS-genomics` to your local machine
