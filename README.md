@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/github-v1.0.0-519dd9.svg)
 ![](https://progress-bar.dev/20)
 
-# 🧬 SIRS morbidity prediction from expression profiles 🧬
+# 🧬 SIRS morbidity prediction from expression profiles
 
 [Systemic inflammatory response syndrome](https://en.wikipedia.org/wiki/Systemic_inflammatory_response_syndrome)
 (SIRS) is an inflammatory state affecting the whole body. It is the body's response to an infectious or noninfectious insult.
