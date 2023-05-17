@@ -18,7 +18,7 @@ The original data comes from [1] and is available via [Synapse](https://www.syna
 ## 🔍 Inspect online
 
 Because github does not support rendering `plotly` graphs, if you wish to inspect this project's notebooks online to their full extent,
-please consider viewing this project tree on [NBviewer](https://nbviewer.org/github/f1lem0n/SIRS-genomics/tree/main/).
+please consider viewing this project tree on [NBviewer](https://nbviewer.org/).
 If you would like to explore the data through *interactive* plots that I have created that is the easiest way to go.
 
 ⚠️ If for some reason NBviewer renders an incomplete version of the notebook, try adding `?flush_cache=true` at the end of the URL.
