@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/language-python-yellow.svg)
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 ![](https://img.shields.io/badge/github-v1.0.0-519dd9.svg)
-![](https://progress-bar.dev/20)
+![](https://progress-bar.dev/50)
 
 # 🧬 SIRS morbidity prediction from expression profiles
 
