@@ -26,7 +26,7 @@ If you would like to explore the data through *interactive* plots that I have cr
 ## 🐍 Environment
 
 1. `git clone https://github.com/f1lem0n/SIRS-genomics` to your local machine
-2. use any `conda` distribution to create and load the environment from the provided `conda-env.yml` file:
+2. use any `conda` distribution to create and load the environment from the provided `.yml` file:
 
 ```bash
 # inside the repo root directory
