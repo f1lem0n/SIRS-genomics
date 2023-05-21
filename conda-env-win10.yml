@@ -154,4 +154,3 @@ dependencies:
   - yaml=0.2.5
   - zeromq=4.3.4
   - zipp=3.15.0
-prefix: D:\FILES\PROGRAM_FILES\miniconda\envs\SIRS-genomics
