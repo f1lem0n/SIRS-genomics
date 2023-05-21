@@ -36,12 +36,16 @@ class DCGAN(object):
         model.add(layers.Reshape((self._data_shape + (256,))))
         assert model.output_shape == (None,) + self._data_shape + (256,)
 
-        model.add(layers.Conv2DTranspose(128, (5, 5), padding='same', use_bias=False))
+        model.add(layers.Conv2DTranspose(
+            128, (5, 5), padding='same', use_bias=False
+        ))
         assert model.output_shape == (None,) + self._data_shape + (128,)
 
         model.add(layers.BatchNormalization())
         model.add(layers.LeakyReLU())
-        model.add(layers.Conv2DTranspose(64, (5, 5), padding='same', use_bias=False))
+        model.add(layers.Conv2DTranspose(
+            64, (5, 5), padding='same', use_bias=False
+        ))
         assert model.output_shape == (None,) + self._data_shape + (64,)
 
         model.add(layers.BatchNormalization())
@@ -104,7 +108,8 @@ class DCGAN(object):
                 gradients_of_generator, self._generator.trainable_variables
             ))
             self.dis_optimizer.apply_gradients(zip(
-                gradients_of_discriminator, self._discriminator.trainable_variables
+                gradients_of_discriminator,
+                self._discriminator.trainable_variables
             ))
 
     def fit(self, X, epochs):
@@ -115,7 +120,9 @@ class DCGAN(object):
 
         if self.save_checkpoints:
             assert self.checkpoint_dir is not None
-            checkpoint_prefix = os.path.join(self.checkpoint_dir, "checkpoint_")
+            checkpoint_prefix = os.path.join(
+                self.checkpoint_dir, "checkpoint_"
+            )
             checkpoint = tf.train.Checkpoint(
                 generator_optimizer=self.optimizer,
                 discriminator_optimizer=self.optimizer,
@@ -137,7 +144,7 @@ class DCGAN(object):
                 ))
             if self.save_checkpoints:
                 if (epoch + 1) % 15 == 0:
-                    checkpoint.save(file_prefix = checkpoint_prefix)
+                    checkpoint.save(file_prefix=checkpoint_prefix)
             finish = perf_counter()
             print(f"[epoch {epoch + 1}: {finish - start} s]")
 
