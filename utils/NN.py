@@ -156,7 +156,7 @@ class DCGAN(object):
             if print_status:
                 print(f"[epoch {epoch + 1} | time: {finish - start:.2f} s | average loss: {loss:.5f}]")
         if print_status:
-            print("="*33)
+            print("="*49)
 
     def generate(self, n_samples=1):
         samples = []
