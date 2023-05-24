@@ -14,7 +14,7 @@ class DCGAN(object):
     def __init__(self, checkpoint_dir=None, noise_dim=100,
                  save_checkpoints=False, batch_size=1,
                  loss_fun=tf.keras.losses.BinaryCrossentropy(from_logits=True),
-                 optimizer=tf.keras.optimizers.legacy.Adam(1e-4)):
+                 optimizer=tf.keras.optimizers.Adam(1e-4)):
         self.noise_dim = noise_dim
         self.batch_size = batch_size
         self.save_checkpoints = save_checkpoints
@@ -154,7 +154,7 @@ class DCGAN(object):
             self.avg_losses_
             finish = perf_counter()
             if print_status:
-                print(f"[epoch {epoch + 1} | time: {finish - start:.2f} s | average loss: {loss:.5f}]")
+                print(f"""[epoch {epoch + 1:4d} | time: {finish - start:4d} s | average loss: {loss:4d}]""")
         if print_status:
             print("="*49)
 
