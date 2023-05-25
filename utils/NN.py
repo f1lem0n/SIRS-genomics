@@ -9,7 +9,7 @@ import tensorflow as tf
 
 
 class DCGAN(object):
-    """Deep Convoluted Generative Adversarial Network"""
+    """Deep Convoluted Generative Adversarial Network (W.I.P)"""
 
     def __init__(self, checkpoint_dir=None, noise_dim=100,
                  save_checkpoints=False, batch_size=1,
