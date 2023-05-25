@@ -154,7 +154,7 @@ class DCGAN(object):
             self.avg_losses_
             finish = perf_counter()
             if print_status:
-                print(f"""[epoch {epoch + 1:4d} | time: {finish - start:4d} s | average loss: {loss:4d}]""")
+                print(f"[epoch {epoch + 1:4d} | time: {finish - start:4d} s | average loss: {loss:4d}]")
         if print_status:
             print("="*49)
 
