@@ -30,7 +30,7 @@ If you would like to explore the data through *interactive* plots that I have cr
 
 ```bash
 # inside the repo root directory
-conda env create -f conda-env-deb12.yml -y  # debian-based linux distros
+conda env create -f conda-env-deb11.yml -y  # debian-based linux distros
 conda env create -f conda-env-win10.yml -y  # windows
 conda activate SIRS-genomics
 ```
